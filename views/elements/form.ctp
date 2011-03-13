@@ -88,7 +88,7 @@ if (isset($options)) {
 	
 	<?php if ($options['ajax']): ?>
 		<div id="ajax-loading" style="display:none">
-			<?php echo $this->Html->image('loading.gif') ?>
+			<?php echo $this->Html->image('ajax-loader.gif') ?>
 		</div>
 	<?php endif ?>
 	
